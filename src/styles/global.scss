@@ -1,0 +1,18 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+@import './variables';
+
+header{
+
+    background: $dark;
+
+    i{
+        color : $white;
+        font-size: 19px;
+        line-height: 1.2105263158;
+        font-weight: 600;
+        letter-spacing: .012em;
+    }
+}
